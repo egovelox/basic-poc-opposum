@@ -1,0 +1,20 @@
+{
+  "circuitConfiguration": {
+    "timeoutMs": 10000,
+    "errorThresholdPercentage": 50,
+    "resetTimeoutMs": 2000
+  },
+  "globalIterations": 3,
+  "tasks": [
+    {
+      "responseCode": 200,
+      "requestTimeMs": 1000,
+      "iterations": 8
+    },
+    {
+      "responseCode": 500,
+      "requestTimeMs": 1000,
+      "iterations": 2
+    }
+  ]
+}
